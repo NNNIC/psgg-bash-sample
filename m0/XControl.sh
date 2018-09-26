@@ -42,7 +42,7 @@ a=0
     {
         if [ $1 -eq 1 ]; then
             echo :
-            echo : you id is $id
+            echo : your id is $id
             echo :
         fi
         #    SetNextStateIf
