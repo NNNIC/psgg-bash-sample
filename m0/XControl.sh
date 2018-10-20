@@ -89,7 +89,7 @@ a=0
     S_SELECT()
     {
         if [ $1 -eq 1 ]; then
-            echo : ** WHICH ROOM WILL YOU ENTER? **
+            echo : -- WHICH ROOM WILL YOU ENTER? --
             echo : A -- room A
             echo : B -- room B
             echo : X -- room X
