@@ -4,7 +4,7 @@
 
 Windows 7/8/10  
 Bash shell  
-SYN-G-GEN https://syn-g-gen.com  
+StateGo https://statego.programanic.com  
 
 ## SAMPLE
 
