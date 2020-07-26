@@ -1,7 +1,7 @@
 ﻿;PSGG Editor Backup File
 version=1.1
-file=Gpio2Control.xlsx
-guid=c15a4a6f-993d-4eb7-836d-614744aad4a2
+file=TestControl.xlsx
+guid=79a33d9d-a26b-4756-a0e4-99075f73378d
 ;set read_from  excel or psgg
 read_from=psgg
 ;set savemode with_excel or psgg_only
@@ -91,7 +91,7 @@ n016=100002
 n002=S_0001
 n003=
 n005=S_GOSUB1
-n007=echo : Hello StateGo bash sample!
+n007=echo : Hello StateGo Bash Sample!
 n014=@@@
 /
 (0,0)
@@ -333,16 +333,16 @@ n016=100019
 sheet=config
 
 ###VARIOUS-CONTENTS-BEGIN###
-; The setting was created automatically. 2020/07/26 11:46:04
-; * pssgEditor version : 0.65.52543.47297fb4709b2be924a23b5ad70d2d93460acbf8
+; The setting was created automatically. 2020/07/26 12:01:15
+; * pssgEditor version : 0.65.48082.no hash because of debug
 psggfile=@@@
-Gpio2Control.psgg
+TestControl.psgg
 @@@
 xlsfile=@@@
-Gpio2Control.xlsx
+TestControl.xlsx
 @@@
 guid=@@@
-c15a4a6f-993d-4eb7-836d-614744aad4a2
+79a33d9d-a26b-4756-a0e4-99075f73378d
 @@@
 bitmap_width=5000
 bitmap_height=2000
@@ -540,10 +540,10 @@ sheet=setting.ini
 ###VARIOUS-CONTENTS-BEGIN###
 [setting]
 
-psgg=Gpio2Control.psgg
-xls=Gpio2Control.xlsx
+psgg=TestControl.psgg
+xls=TestControl.xlsx
 sub_src=
-gen_src=Gpio2Control.sh
+gen_src=TestControl.sh
 macro_ini=
 
 manager_src=
@@ -570,7 +570,7 @@ https://github.com/NNNIC/psgg-starter-kit.git fb49dd424e62ef8f0dac7c7f49a7a8926d
 lang=bash
 framework=
 
-statemachine=Gpio2Control
+statemachine=TestControl
 prefix=__PREFIX__
 xlsdir=@@@
 G:\statego\samples\psgg-bash-sample\sample
@@ -595,8 +595,8 @@ Bash シェル用のステートマシンを作成します。
 
 # 作成ファイル
 
-      Gpio2Control.pssg   --- StateGo データファイル
-      Gpio2Control.sh  　 --- 変換コードを本ファイルに埋め込む。
+      TestControl.pssg   --- StateGo データファイル
+      TestControl.sh  　 --- 変換コードを本ファイルに埋め込む。
 
 @@@
 
@@ -611,8 +611,8 @@ This dialog will create files for a state machine.
 
 # File:
 
-      Gpio2Control.pssg  --- StateGo data file.
-      Gpio2Control.sh    --- The editor will insert converted source code to this file.
+      TestControl.pssg  --- StateGo data file.
+      TestControl.sh    --- The editor will insert converted source code to this file.
 
 @@@
 ###VARIOUS-CONTENTS-END###

@@ -7,7 +7,7 @@ nextfunc=""
 callstack=()
 
 #[SYN-G-GEN OUTPUT START] $/./$
-    #             psggConverterLib.dll converted from psgg-file:Gpio2Control.psgg
+    #             psggConverterLib.dll converted from psgg-file:TestControl.psgg
 
     #   E_0001
     declare -i i=0
@@ -15,7 +15,7 @@ callstack=()
     S_0001()
     {
         if [ $1 -eq 1 ]; then
-            echo : Hello StateGo bash sample!
+            echo : Hello StateGo Bash Sample!
         fi
         #    SetNextStateIf
             if [ "$nextfunc" = "" ]; then
@@ -186,7 +186,7 @@ while  [ $_loop -le $max ]; do
     fi
 
     #[SYN-G-GEN OUTPUT START] $/^S/->#callfunc$
-    #             psggConverterLib.dll converted from psgg-file:Gpio2Control.psgg
+    #             psggConverterLib.dll converted from psgg-file:TestControl.psgg
 
     if [ "$curfunc" = "S_0001" ]; then
         S_0001 $bFirst
