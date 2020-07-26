@@ -2,9 +2,9 @@
 
 ## ENVIRONMENT
 
-Windows 7/8/10  
+Windows 10  
 Bash shell  
-[StateGo](https://statego.programanic.com/index-e.html)
+[StateGo](https://statego.programanic.com/)
 
 ## SAMPLE
 
