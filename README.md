@@ -8,10 +8,8 @@ Bash shell
 
 ## SAMPLE
 
-### m0 state chart
+![](https://raw.githubusercontent.com/NNNIC/psgg-bash-sample/master/wiki/state2.png)
 
-![](https://raw.githubusercontent.com/NNNIC/psgg-bash-sample/master/wiki/state.png)
-
-### m0 execution
+## Execution
 
 ![](https://raw.githubusercontent.com/NNNIC/psgg-bash-sample/master/wiki/m0.gif)
