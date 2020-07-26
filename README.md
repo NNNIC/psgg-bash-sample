@@ -12,4 +12,4 @@ Bash shell
 
 ## Execution
 
-![](https://raw.githubusercontent.com/NNNIC/psgg-bash-sample/master/wiki/m0.gif)
+![](https://raw.githubusercontent.com/NNNIC/psgg-bash-sample/master/wiki/exec.gif)
